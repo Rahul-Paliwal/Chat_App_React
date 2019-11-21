@@ -1,0 +1,53 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+}
+.chatinfo_container
+{
+  background-color: #2979FF;
+  
+  border-radius: 7px;
+  
+  padding: 3px 4px 17px 4px;
+}
+.online_active_container
+{
+  background-color:
+  #fff;
+  
+  border-radius: 12px;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeContainer img {
+  padding-left: 10px;
+}
+
+.activeContainer h1 {
+  margin-bottom: 0px;
+  color: #000;
+}
+/* .activeContainer h2 {
+
+
+} */
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}

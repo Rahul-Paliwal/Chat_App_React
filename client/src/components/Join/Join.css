@@ -1,0 +1,108 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color:
+  #51d6eb;
+}
+
+.joinInnerContainer {
+  width: 20%;
+
+  background-color:
+  #31bd89c2;
+  
+  height: auto;
+  
+  padding: 10px;
+  
+  border-radius: 21px;
+}
+
+.joinInput {
+  border-radius: 10px;
+
+padding: 15px 20px;
+
+width: 100%;
+
+border-color:
+#04040491;
+
+background:
+#c49797;
+
+color:
+#fff;
+
+font-weight: bold;
+}
+
+.heading {
+  color:
+  #ffcb50;
+  font-size: 2.7em;
+  padding-bottom: 10px;
+  border-bottom: 4px solid
+  #ffcb50;
+  font-weight: bold;
+}
+.heading1{
+  color:
+  #ffcb50;
+  font-size: 2.2em;
+  padding-bottom: 10px;
+  border-bottom: 4px solid
+  #ffcb50;
+}
+
+.button {
+  color:
+  #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background:
+  #FF2929;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+
+}
+
+button:focus {
+  outline: 0;
+}
