@@ -12,14 +12,14 @@ const TextContainer = ({ users }) => (
         ? ( 
           <div className="box_container">
             <div className="chatinfo_container">
-            <h1 aria-label="emoji">People currently chatting:❤️</h1>
+            <h1 aria-label="emoji">Online Users</h1>
             </div>
             <div className="activeContainer">
               <h2>
                 {users.map(({name}) => (
                   <div key={name} className="activeItem">
-                    <div >{name}</div>
-                    <div ><img alt="Online Icon" src={onlineIcon}/></div>
+                    {name}
+                    <img alt="Online Icon" src={onlineIcon}/>
                   </div>
                 ))}
               </h2>

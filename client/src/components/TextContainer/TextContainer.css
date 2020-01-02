@@ -30,23 +30,29 @@
 .box_container{
  
   background-color: #2979FF;
-  border-radius: 7px;
-  display: flex;
-  float:right;
-  flex-direction: column;
-  padding: 2px 6px 13px 20px;
+    border-radius: 14px;
+    display: flex;
+    float: right;
+    width: 428px;
+    padding: 2px 0px 2px 3px;
+    flex-direction: column;
+}
+.box_container h1
+{
+  text-align: center;
 }
 .online_active_container
 {
   background-color:
   #fff;
-  
+  text-align: center;
   border-radius: 12px;
 }
 
 .activeContainer {
   display: flex;
   align-items: center;
+  text-transform: capitalize;
   /* margin-bottom: 50%; */
 }
 
