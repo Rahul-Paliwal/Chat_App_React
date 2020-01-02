@@ -1,10 +1,9 @@
 .outerContainer {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   height: 101vh;
-  background-color:
-  #51d6eb;
+  background-color: #51d6eb;
 }
 
 .container {
@@ -14,14 +13,14 @@
   
   justify-content: space-between;
   
-  background:
-  #D0D0D0;
+  background: #D0D0D0;
   
   border-radius: 20px;
   
   height: 60%;
   
   width: 35%;
+  margin-left: 10px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

@@ -5,14 +5,36 @@
   color: white;
   height: 60%;
   justify-content: space-between;
+  margin-right: 10px;
 }
 .chatinfo_container
 {
   background-color: #2979FF;
+  display: flex;
+  flex-direction: column;
   
+  border-radius: 17px;
+  
+  padding: 3px 3px 0px 4px;
+}
+.info_container
+{
+  background-color: #f73f3f;
+  
+  border-radius: 17px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  padding: 2px 6px 10px 14px
+}
+.box_container{
+ 
+  background-color: #2979FF;
   border-radius: 7px;
-  
-  padding: 3px 4px 17px 4px;
+  display: flex;
+  float:right;
+  flex-direction: column;
+  padding: 2px 6px 13px 20px;
 }
 .online_active_container
 {
@@ -25,7 +47,7 @@
 .activeContainer {
   display: flex;
   align-items: center;
-  margin-bottom: 50%;
+  /* margin-bottom: 50%; */
 }
 
 .activeItem {
